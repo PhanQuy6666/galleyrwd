@@ -1,0 +1,48 @@
+.anh{
+    width: 100%;
+    height: 260px;
+    
+}
+.anh1{
+    width: 22%;
+    height: 90%;
+    
+    border: 1px solid #ccc;
+    float: left;
+    margin: 1%;
+
+}
+.anh1:hover {
+    border: 1px solid #fff;
+}
+.anh1 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anh1 img {
+    width: 100%;
+    height:auto;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    padding: 6px;
+}
+@media screen and (max-width: 700px) {
+    .anh{
+        height: 290px;
+    }
+    .anh1{
+        width: 47%;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .anh1{
+        width: 95%;
+    }
+    .anh{
+        height: 400px;
+    }
+  }
